@@ -1,0 +1,855 @@
+
+.user-select-none {
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none
+}
+.symbol {
+	font-family:simsun!important
+}
+.clear {
+	clear:both!important
+}
+.float-left {
+	float:left!important
+}
+.float-right {
+	float:right!important
+}
+.float-none {
+	float:none!important
+}
+.block {
+	display:block!important
+}
+.hide {
+	display:none!important
+}
+.hidden {
+	visibility:hidden!important
+}
+.disabled:hover,.disabled:hover a {
+	cursor:default!important;
+	cursor:not-allowed!important
+}
+.full-block {
+	display:block;
+	width:100%!important
+}
+.passport-light-color {
+	color:#999!important
+}
+.passport-tip-color {
+	color:#fd6505!important
+}
+.passport-warn-color {
+	color:red!important
+}
+.passport-success-color {
+	color:#339734!important
+}
+.text-left {
+	text-align:left!important
+}
+.text-right {
+	text-align:right!important
+}
+.text-center {
+	text-align:center!important
+}
+.text-nowrap {
+	white-space:nowrap!important
+}
+.mask {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:900;
+	width:100%;
+	height:100%;
+	background:#000;
+	opacity:.4
+}
+.static {
+	position:static!important
+}
+.absolute {
+	position:absolute!important
+}
+.fixed {
+	position:fixed!important
+}
+.passport-btn,button,input,select,textarea {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box
+}
+.passport-btn,button,input,label,select {
+	vertical-align:middle
+}
+.passport-placeholder {
+	color:#999!important
+}
+.passport-empty-input,.passport-empty-input:focus,.passport-empty-input:hover,.passport-error-input,.passport-error-input:focus,.passport-error-input:hover {
+	background:#fff!important;
+	border:1px solid #ff6711!important;
+	-webkit-box-shadow:none!important;
+	box-shadow:none!important
+}
+.passport-empty-txt,.passport-error-txt {
+	color:red!important
+}
+.passport-success-txt {
+	color:#35b558!important
+}
+.passport-note {
+	color:#666;
+	vertical-align:middle
+}
+span.passport-note {
+	padding-left:5px
+}
+div.passport-note {
+	padding:5px 0 0;
+	line-height:1.8
+}
+.passport-note strong {
+	padding:0 5px;
+	color:red
+}
+.passport-note b {
+	padding:0 5px;
+	color:#333
+}
+input[type=checkbox],input[type=radio] {
+	width:13px;
+	height:13px;
+	margin:0 5px 0 2px;
+	cursor:pointer
+}
+input[type=checkbox][disabled],input[type=checkbox][disabled]:active,input[type=checkbox][disabled]:focus,input[type=checkbox][disabled]:hover,input[type=radio][disabled],input[type=radio][disabled]:active,input[type=radio][disabled]:focus,input[type=radio][disabled]:hover {
+	cursor:default!important;
+	cursor:not-allowed!important
+}
+.passport-btn {
+	height:26px;
+	padding:0 15px;
+	font-size:12px;
+	border:1px solid #eaeaea;
+	-webkit-transition:background-color .8s,border-color .8s;
+	-moz-transition:background-color .8s,border-color .8s;
+	transition:background-color .8s,border-color .8s;
+	background:#eaeaea;
+	border-color:#eaeaea;
+	color:#666;
+	display:inline-block;
+	line-height:24px;
+	text-align:center;
+	text-decoration:none;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	cursor:pointer
+}
+.passport-btn .icon {
+	margin-right:5px
+}
+.passport-btn:active,.passport-btn:hover {
+	background:#eee;
+	color:#999
+}
+.passport-btn:hover {
+	text-decoration:none
+}
+.passport-btn:not(button) .icon {
+	position:relative;
+	top:-1px
+}
+.passport-btn.disabled,.passport-btn.disabled:active,.passport-btn.disabled:focus,.passport-btn.disabled:hover,.passport-btn[disabled],.passport-btn[disabled]:active,.passport-btn[disabled]:focus,.passport-btn[disabled]:hover {
+	-webkit-transition:none;
+	-moz-transition:none;
+	transition:none;
+	background:#eee!important;
+	border:1px solid #e7e7e7!important;
+	color:#999!important;
+	cursor:default!important;
+	cursor:not-allowed!important
+}
+.passport-btn-def {
+	background:#35b558;
+	border-color:#35b558;
+	color:#fff
+}
+.passport-btn-def:active,.passport-btn-def:hover {
+	background:#51cc73;
+	border-color:#51cc73;
+	color:#fff
+}
+.passport-btn-primary {
+	background:#2d85ca;
+	border-color:#2d85ca;
+	color:#fff
+}
+.passport-btn-primary:active,.passport-btn-primary:hover {
+	background:#529dd8;
+	border-color:#529dd8;
+	color:#fff
+}
+.passport-btn.xl {
+	height:40px;
+	padding:0 30px;
+	font-size:18px;
+	line-height:38px
+}
+.passport-btn.w-full {
+	width:100%;
+	padding:0!important
+}
+.passport-txt[disabled],.passport-txt[disabled]:active,.passport-txt[disabled]:focus,.passport-txt[disabled]:hover,select[disabled],select[disabled]:active,select[disabled]:focus,select[disabled]:hover,textarea[disabled],textarea[disabled]:active,textarea[disabled]:focus,textarea[disabled]:hover {
+	background:#f8f8f8!important;
+	border-color:#f1f1f1!important;
+	-webkit-box-shadow:none!important;
+	box-shadow:none!important;
+	cursor:default!important;
+	cursor:not-allowed!important
+}
+.passport-txt {
+	width:100px;
+	height:26px;
+	padding:5px;
+	font-size:12px;
+	line-height:16px;
+	border:1px solid #e4e4e4;
+	border-color:#e4e4e4;
+	-webkit-transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	-moz-transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+.passport-txt[readonly=readonly],.passport-txt[readonly=readonly]:focus,.passport-txt[readonly=readonly]:hover {
+	border-color:#e4e4e4!important;
+	-webkit-box-shadow:none;
+	box-shadow:none
+}
+.passport-txt:hover {
+	border-color:#ccc;
+	-webkit-box-shadow:0 0 5px #fff;
+	box-shadow:0 0 5px #fff
+}
+.passport-txt:focus {
+	border-color:#35b558;
+	-webkit-box-shadow:0 0 5px #51cc73;
+	box-shadow:0 0 5px #51cc73
+}
+.passport-txt.txt-radius {
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px
+}
+.passport-txt.xl {
+	height:40px;
+	padding:11px;
+	font-size:14px;
+	line-height:18px
+}
+.passport-txt.w-lg {
+	width:170px
+}
+.passport-txt.w-full {
+	width:100%
+}
+.passport-icon {
+	display:inline-block;
+	vertical-align:middle;
+	background-repeat:no-repeat
+}
+.f-icon {
+	display:inline-block;
+	font:normal normal normal 14px/1 FontAwesome;
+	font-size:inherit;
+	text-rendering:auto;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	transform:translate(0,0)
+}
+.icon-refresh {
+	width:18px;
+	height:18px;
+	background-position:0 -38px
+}
+.icon-letter,.icon-phone {
+	width:32px;
+	height:32px;
+	background-position:-49px -58px
+}
+.icon-letter {
+	background-position:-83px -58px
+}
+.icon-eoe,.icon-tencent,.icon-weibo,.icon-weixin {
+	width:55px;
+	height:55px;
+	background-position:0 -65px
+}
+.passport-third a:hover .icon-tencent {
+	background-position:0 -1px
+}
+.passport-third .icon-weibo {
+	background-position:-81px -65px
+}
+.passport-third a:hover .icon-weibo {
+	background-position:-81px -1px
+}
+.passport-third .icon-weixin {
+	background-position:-162px -65px
+}
+.passport-third a:hover .icon-weixin {
+	background-position:-162px -1px
+}
+.passport-third .icon-eoe {
+	background-position:-243px -65px
+}
+.passport-third a:hover .icon-eoe {
+	background-position:-243px -1px
+}
+.icon-success {
+	width:48px;
+	height:48px;
+	background-position:0 -58px
+}
+.passport-tab>.tabs ul:after {
+	display:table;
+	clear:both;
+	content:" "
+}
+.passport-tab>.tabs li {
+	float:left;
+	cursor:pointer
+}
+.passport-tab>.tabbed>.tab-group {
+	display:none
+}
+.passport-popup {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:990;
+	padding:10px;
+	background:rgba(0,0,0,.2)
+}
+.passport-popup:after {
+	display:table;
+	clear:both;
+	content:" "
+}
+.passport-popup .close {
+	position:absolute;
+	top:10px;
+	right:10px;
+	display:block;
+	width:20px;
+	height:20px;
+	border-radius:50%;
+	cursor:pointer;
+	background:url(../images/popup_def_close.png) no-repeat center center / 14px 14px
+}
+.passport-popup>.layout-inner {
+	position:relative;
+	float:left;
+	width:100%;
+	height:100%;
+	background:#fff
+}
+.passport-popup>.layout-inner>.hd {
+	height:40px;
+	padding:0 30px 0 8px;
+	background:#f3f3f3;
+	line-height:40px;
+	cursor:default
+}
+.passport-popup>.layout-inner>.hd h2 {
+	color:#666;
+	font-size:16px;
+	font-weight:400
+}
+.passport-popup .btn-wrap {
+	padding:10px 0;
+	text-align:center
+}
+.passport-popup.passport-popup-primary .hd {
+	background:#f3f3f3
+}
+.passport-popup.passport-popup-info .hd {
+	background:0 0
+}
+.passport-header {
+	margin-bottom:30px
+}
+#logo {
+	width:150px;
+	height:55px;
+	margin-right:auto;
+	margin-left:auto
+}
+#logo img {
+	width:100%;
+	height:100%
+}
+#warning {
+	position:fixed;
+	top:-40px;
+	left:50%;
+	z-index:60000;
+	opacity:0;
+	padding:4px 20px;
+	border-bottom-right-radius:3px;
+	border-bottom-left-radius:3px;
+	font-size:16px;
+	font-weight:400;
+	color:#fff;
+	text-align:center
+}
+.waring-success {
+	background:#35b558
+}
+.waring-failure {
+	background:#ff5c00
+}
+.waring-sub {
+	background:#2d85ca
+}
+.passport-step {
+	padding:8px 6px
+}
+.passport-step li {
+	position:relative;
+	top:0;
+	left:0;
+	float:left;
+	width:100px;
+	margin-left:90px;
+	padding-top:35px;
+	text-align:center
+}
+.passport-step li.first {
+	margin-left:0
+}
+.passport-step li .disc {
+	position:absolute;
+	top:0;
+	left:50%;
+	z-index:20;
+	display:block;
+	width:30px;
+	height:30px;
+	margin-left:-15px;
+	background-color:#b9b9b9;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	border-radius:50%;
+	color:#fff;
+	font:16px/30px arial;
+	cursor:default
+}
+.passport-step li .strip {
+	position:absolute;
+	top:13px;
+	left:-120px;
+	z-index:10;
+	display:block;
+	width:150px;
+	height:3px;
+	background-color:#b9b9b9
+}
+.passport-step p {
+	color:#666;
+	font-size:14px;
+	line-height:18px;
+	text-align:center;
+	white-space:nowrap
+}
+.passport-step .now .disc,.passport-step .now .strip,.passport-step .past .disc,.passport-step .past .strip {
+	background-color:#35b558
+}
+.passport-safely {
+	margin-top:10px
+}
+.passport-safely li {
+	float:left;
+	width:60px;
+	height:14px;
+	margin-right:4px;
+	background-color:#ddd;
+	color:#fff;
+	font-size:12px;
+	line-height:14px;
+	text-align:center;
+	cursor:default
+}
+.passport-safely.safely-danger .danger {
+	background-color:#da4619
+}
+.passport-safely.safely-general .danger,.passport-safely.safely-general .general {
+	background-color:#ff5c00
+}
+.passport-safely.safely-safe li {
+	background-color:#35b558
+}
+.clearfix:after,.passport-form .form-imgcode .form-cont:after,.passport-safely:after,.passport-sign:after,.passport-step:after {
+	display:table;
+	clear:both;
+	content:" "
+}
+.passport-icon {
+	background-image:url(../images/fouricon.png);
+	background-size:298px 120px
+}
+.wrap {
+	margin-right:auto;
+	margin-left:auto
+}
+.wrap:after {
+	display:table;
+	clear:both;
+	content:" "
+}
+.passport-wrapper {
+	width:820px;
+	margin-right:auto;
+	margin-left:auto;
+	padding-top:100px;
+	padding-bottom:20px
+}
+.passport-sign {
+	padding:40px 110px;
+	box-shadow:0 3px 3px rgba(0,0,0,.2);
+	background-color:#fff
+}
+.passport-sign .aside,.passport-sign .main-form {
+	padding:0 25px
+}
+.passport-sign .main-form {
+	width:360px;
+}
+.passport-sign .main-form h2 {
+	color:#333;
+	margin-bottom:10px;
+	font-size:20px;
+	font-weight:400;
+	line-height:20px
+}
+.passport-sign .main-form p {
+	margin-bottom:20px
+}
+.passport-sign .aside {
+	width:340px;
+	margin-left:40px
+}
+.passport-sign .passport-goto {
+	margin-bottom:10px;
+	padding-top:50px;
+	color:#000;
+	font-size:16px
+}
+.passport-sign .passport-goto.mg-b100 {
+	margin-bottom:100px
+}
+.passport-sign .sendgift {
+	margin-bottom:50px
+}
+.passport-sign .passport-third .hd {
+	height:16px;
+	font-size:12px;
+	text-align:center
+}
+.passport-sign .passport-third .hd .layout-inner {
+	margin-bottom:7px;
+	border-bottom:2px solid #f2f2f2
+}
+.passport-sign .passport-third .hd h3 {
+	width:106px;
+	margin:0 auto -8px;
+	background-color:#fff;
+	font-weight:400;
+	line-height:16px
+}
+.passport-sign .passport-third .links {
+	width:286px;
+	margin:0 auto;
+	padding-top:20px
+}
+.passport-sign .passport-third .links a {
+	float:left;
+	display:block;
+	margin:0 8px
+}
+.passport-sign .passport-ad {
+	width:240px;
+	height:60px;
+	margin-top:80px
+}
+.passport-sign .passport-tab .tabs {
+	margin-bottom:15px
+}
+.passport-sign .passport-tab .tabs ul {
+	border-bottom:2px solid #e4e4e4
+}
+.passport-sign .passport-tab .tabs li {
+	float:left;
+	width:50%;
+	height:32px;
+	margin-bottom:-2px;
+	text-align:center;
+	font-size:16px
+}
+.passport-sign .passport-tab .tabs li.active {
+	color:#35b558;
+	border-bottom:2px solid #35b558
+}
+.passport-form .form-item {
+	margin-bottom:12px
+}
+.passport-form .form-cont {
+	position:relative;
+	line-height:26px
+}
+.passport-form .js-placeholder {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	z-index:1;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	height:40px;
+	padding:11px;
+	font-size:12px;
+	line-height:18px;
+	text-align:left
+}
+.passport-form .passport-txt {
+	position:relative;
+	z-index:10;
+	color:#666;
+	font-size:12px
+}
+.passport-form .passport-txt.placeholder {
+	background-color:rgba(0,0,0,0)
+}
+.passport-form .passport-note {
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	z-index:20;
+	padding:0;
+	background-color:rgba(0,0,0,0);
+	color:#fff;
+	line-height:26px
+}
+.passport-form .passport-note span {
+	display:block;
+	height:26px;
+	margin:7px 7px 0 0;
+	padding:0 5px;
+	background-color:#ff5c00;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px
+}
+.passport-form .form-imgcode .layout-inner {
+	position:relative;
+	float:left;
+	width:170px
+}
+.passport-form .form-imgcode .imgcode {
+	float:right
+}
+.passport-form .form-imgcode .imgcode img {
+	width:100px;
+	height:40px;
+	cursor:pointer
+}
+.passport-form .form-imgcode .imgcode .passport-icon {
+	cursor:pointer;
+	display:none
+}
+.passport-form .form-mcode .btn-getcode {
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	z-index:20
+}
+.passport-form .form-mcode .btn-getcode .passport-btn {
+	text-overflow:initial;
+	width:90px;
+	height:26px;
+	margin:7px 7px 0 0;
+	padding:0;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px
+}
+.passport-form .form-mcode .passport-note {
+	right:97px
+}
+.passport-form .passport-sms {
+	position:absolute;
+	top:100%;
+	left:0
+}
+.passport-form .passport-sms a {
+	color:#2d85ca
+}
+.passport-form .passport-sms a:hover {
+	color:#529dd8
+}
+.passport-form .passport-sms a.disabled,.passport-form .passport-sms a.disabled:hover {
+	color:#999
+}
+.passport-form-sign .form-treaty .passport-note span {
+	margin:0
+}
+.passport-form-sign .form-treaty .form-cont {
+	line-height:20px
+}
+.passport-form-sign .form-treaty .passport-note {
+	top:-3px;
+	line-height:26px
+}
+.passport-form-sign .treaty {
+	color:#999
+}
+.passport-form-sign .treaty:hover {
+	color:#35b558
+}
+.passport-form-sign .form-sevenday label {
+	float:left
+}
+.passport-form-sign .form-sevenday .forget-link {
+	float:right;
+	color:#999
+}
+.passport-form-sign .form-sevenday .forget-link:hover {
+	color:#35b558
+}
+.passport-forget {
+	padding:25px 0;
+	background-color:#fff;
+	min-height:400px
+}
+.passport-forget .passport-into {
+	padding-top:95px
+}
+.passport-forget .passport-into .passport-btn {
+	display:block;
+	width:250px;
+	height:54px;
+	margin:0 auto 50px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	font-size:16px;
+	text-align:left;
+	line-height:52px
+}
+.passport-forget .passport-into .passport-btn .passport-icon {
+	margin-right:25px
+}
+.passport-forget .passport-step {
+	margin:40px auto 20px;
+	width:492px
+}
+.passport-forget .passport-form {
+	width:300px;
+	margin-right:auto;
+	margin-left:auto
+}
+.passport-forget .passport-form .form-submit {
+	margin-top:30px
+}
+.passport-forget .passport-form .form-item {
+	margin-bottom:18px
+}
+.passport-form-email .form-code-text,.passport-form-email .form-text,.passport-form-phone .form-code-text,.passport-form-phone .form-text {
+	width:500px;
+	margin:0 -100px;
+	text-align:center
+}
+.passport-form-email .form-code-text p,.passport-form-email .form-text p,.passport-form-phone .form-code-text p,.passport-form-phone .form-text p {
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	margin-bottom:20px
+}
+.passport-form-email .form-code-text big,.passport-form-email .form-email,.passport-form-email .form-text big,.passport-form-phone .form-code-text big,.passport-form-phone .form-email,.passport-form-phone .form-text big {
+	font-size:14px
+}
+.passport-form-email .form-email p,.passport-form-phone .form-email p {
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap
+}
+.passport-form-email .form-email em,.passport-form-phone .form-email em {
+	color:#35b558
+}
+.passport-form-phone .form-code-text {
+	position:relative;
+	width:100%;
+	margin:0;
+	text-align:left
+}
+.passport-form-phone .form-code-text .passport-icon {
+	position:absolute;
+	right:0;
+	left:0;
+	margin-left:-60px
+}
+.passport-form-phone .passport-voice {
+	color:#2d85ca
+}
+.passport-form-phone .passport-voice:hover {
+	color:#529dd8
+}
+.mb-25 {
+	margin-bottom:25px!important
+}
+@media screen and (max-width:600px) {
+	.passport-wrapper {
+	width:90%;
+	padding-top:50px
+}
+.passport-wrapper .passport-sign {
+	height:auto;
+	padding:40px 0
+}
+.passport-wrapper .passport-sign .main-form {
+	border-right:0;
+	width:100%;
+	height:auto;
+	min-height:auto;
+	padding-right:25px
+}
+.passport-wrapper .aside {
+	clear:both;
+	width:100%;
+	margin-left:0
+}
+.passport-wrapper .passport-goto {
+	margin-bottom:20px;
+	padding-top:20px
+}
+}@media screen and (max-width:320px) {
+	.passport-wrapper .passport-sign .imgcode {
+	clear:both;
+	float:left;
+	margin-top:4px
+}
+.passport-sign .passport-third .links {
+	width:100%
+}
+.passport-sign .passport-third .links a {
+	margin:0 2px
+}
+}

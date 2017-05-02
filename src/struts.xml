@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+    <constant name="struts.multipart.saveDir=" value="d:\\temp"></constant>
+     
+     <package name="example" namespace="/" extends="json-default">
+      
+      <action name="cyclass" class="com.cyporj.action.CyclassAction">
+                 <result name="index" >/index.jsp</result>
+                 <result name="jump" >/jump.jsp</result>
+                 <result name="register" >/register.jsp</result>
+                 <result name="quser" >/quser.jsp</result> 
+                 <result type="json" name="success"></result>
+       </action>
+
+       <!--ssss  -->
+        <action name="cyuser" class="com.cyporj.action.UserAction">
+               <param name="savePath">/upload</param>
+                 <result name="qgood">/qgood.jsp</result>
+                 <result name="add">/add.jsp</result>
+                 <result name="jump" >/jump.jsp</result> 
+                 <result name="search" >/search.jsp</result> 
+				 <result name="quser" >/quser.jsp</result> 
+				 <result name="users" >/users.jsp</result> 
+				  <result name="checkusers" >/checkusers.jsp</result> 
+				 <result name="admin" >/admin.jsp</result> 
+				 <result type="json" name="success">  
+                 <param name="root">result</param>  
+            </result>
+				 
+       </action>
+       <action name="cygood" class="com.cyporj.action.GoodAction">
+                 <param name="savePath">/upload</param>
+                 <result name="qgood">/qgood.jsp</result>
+                  <result name="goods">/goods.jsp</result>
+                 <result name="add">/add.jsp</result>
+                 <result name="jump" >/jump.jsp</result> 
+                 <result name="products" >/products.jsp</result> 
+                 <result name="search" >/search.jsp</result> 
+                 <result name="collect" >/collect.jsp</result> 
+				 <result name="quser" >/quser.jsp</result> 
+				 <result name="single" >/single.jsp</result> 
+				 <result type="json" name="success">  
+                 <param name="root">result</param>  
+            </result>
+				 
+       </action>
+             <action name="cymesg" class="com.cyporj.action.MesgAction">
+                 <result name="qgood">/qgood.jsp</result>
+                  <result name="message">/message.jsp</result>
+                 <result name="add">/add.jsp</result>
+                 <result name="jump" >/jump.jsp</result> 
+                 <result name="products" >/products.jsp</result> 
+                 <result name="search" >/search.jsp</result> 
+                 <result name="collect" >/collect.jsp</result> 
+				 <result name="quser" >/quser.jsp</result> 
+				 <result name="single" >/single.jsp</result> 
+				 <result type="json" name="success">  
+                 <param name="root">result</param>  
+            </result>
+				 
+       </action>
+      </package>
+
+
+</struts>    
