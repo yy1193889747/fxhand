@@ -15,4 +15,4 @@
     * 滑动验证码
     * 分页技术
     
-[![模态框登录注册](/WebRoot/images/login.png "")]   
+[![](/WebRoot/images/login.png "模态框登录注册")]
