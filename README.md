@@ -14,5 +14,5 @@
     * 手机短信验证
     * 滑动验证码
     * 分页技术
-    
+![](/WebRoot/images/index.png "主页显示")    
 ![](/WebRoot/images/login.png "模态框登录注册")
