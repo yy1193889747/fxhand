@@ -15,4 +15,4 @@
     * 滑动验证码
     * 分页技术
     
-[![](/WebRoot/images/login.png "")][]    
+[![](/WebRoot/images/login.png "")]   
