@@ -175,12 +175,7 @@ CREATE TABLE `cyusers` (
 -- ----------------------------
 -- Records of cyusers
 -- ----------------------------
-INSERT INTO `cyusers` VALUES ('3', '18552223', '18545000242', '0.0001', null, null, null, null, null, '1');
-INSERT INTO `cyusers` VALUES ('5', '1111111', '18634887608', '123456789', null, null, null, null, null, '2');
-INSERT INTO `cyusers` VALUES ('6', 'tom123', '18450089621', '0.0001', '', null, null, null, '', '3');
-INSERT INTO `cyusers` VALUES ('7', 'cy12312', '18450089620', '0.0001', '     ', '704739362@qq.com', '704739362', '则徐5', '1489730819914.jpg', '3');
-INSERT INTO `cyusers` VALUES ('8', 'cy1234', '18250493005', '0.0001', '2017-03-07 13:34:41', null, null, null, 'sa的', '4');
-INSERT INTO `cyusers` VALUES ('9', 'admin', '15235835664', 'admin0.0001', null, null, null, null, null, '1');
+INSERT INTO `cyusers` VALUES ('7', 'admin', '15235835664', 'adminadmin', null, null, null, null, null, '1');
 
 -- ----------------------------
 -- Table structure for `cywant`
